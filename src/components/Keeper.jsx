@@ -20,7 +20,7 @@ function Keeper() {
   }
 
   return (
-    <div>
+    <div className="keeper">
       <Header />
       <CreateArea onAdd={addNote} />
       {notes.map((newItem, index) => {
